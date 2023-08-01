@@ -1,0 +1,59 @@
+.booking h1 {
+  font-size: 2.5rem;
+  padding: 2rem 0;
+  background-color: #495e57;
+  color: #edefee;
+  font-family: Markazi Text;
+  text-align: center;
+  font-weight: 400;
+}
+
+.booking form {
+  margin: 0 auto 1.5rem;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 28rem;
+  padding: 3rem;
+  gap: 1.75rem;
+}
+
+.form-data {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.form-data label {
+  font-weight: 800;
+}
+
+.form-data input,
+select {
+  font-family: Karla, sans-serif;
+  font-size: 1rem;
+  padding: 0.75rem 1rem;
+  color: #495e57;
+  border-radius: 0.5rem;
+  outline: none;
+  border: 0.05rem solid #edefee;
+  transition: border-color 2s;
+}
+
+.form-data input:focus, select:focus {
+    border: 0.05rem solid #495e57;
+    outline: 0.08rem solid #495e57;
+}
+
+.form-container .focus-button {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.form-container .focus-button:focus {
+    background-color: #495e57;
+    color: #edefee;
+    border: 1px solid #495e57;
+}
