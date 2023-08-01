@@ -1,0 +1,44 @@
+.navBar {
+    grid-template-columns: auto auto auto;
+    min-height: 6.75rem;
+}
+
+.littlelemon-img {
+    grid-column: 1;
+    align-self: center;
+    justify-self: start;
+}
+
+.littlelemon-img img {
+    max-width: 15.75rem;
+}
+
+.navbar-burger {
+    grid-column: 2;
+    display: none;
+}
+
+.navbar-link-list {
+    display: flex;
+    grid-column: 3;
+    justify-self: right;
+}
+
+.navbar-link-list li {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-link-list a {
+    color: #495e57;
+    padding: 1.75rem 1.25rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease-in;
+}
+
+.navbar-link-list a:hover {
+    color: #f4ce14;
+}
