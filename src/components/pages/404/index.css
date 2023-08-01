@@ -1,0 +1,17 @@
+.page-not-found {
+    min-height: 32rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-not-found svg {
+    font-size: 4em;
+}
+
+.page-not-found h2 {
+    font-family: Markazi Text;
+    font-size: 2rem;
+    font-weight: 400;
+}

@@ -14,11 +14,11 @@ const Header = () => {
         <button className='navbar-burger'><FaHamburger /></button>
         <ul className='navbar-link-list'>
           <li><Link to={"/"}>Home</Link></li>
-          <li><Link to={"/"}>About</Link></li>
-          <li><Link to={"/"}>Menu</Link></li>
-          <li><Link to={"/"}>Reservation</Link></li>
-          <li><Link to={"/"}>Order Online</Link></li>
-          <li><Link to={"/"}>Login</Link></li>
+          <li><Link to={"/about"}>About</Link></li>
+          <li><Link to={"/menu"}>Menu</Link></li>
+          <li><Link to={"/reservation"}>Reservation</Link></li>
+          <li><Link to={"/order-online"}>Order Online</Link></li>
+          <li><Link to={"/login"}>Login</Link></li>
         </ul>
       </nav>
     </header>
